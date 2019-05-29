@@ -14,9 +14,9 @@ public class Counter {
             {
                 arrayList.add(scanner.nextLine());
                 countOfWords = arrayList.get(i).split(" ").length;
-                //System.out.print(arrayList.get(i));
+                //System.out.print(arrayList.get(i)+"\t\t");
                 if (i==0)
-                    System.out.println("\t\t" + countOfWords + " words");
+                    System.out.println(countOfWords + " words");
                 else System.out.println();
                 i++;
             }
