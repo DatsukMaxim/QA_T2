@@ -13,7 +13,7 @@ public class Counter {
             while (scanner.hasNextLine())
             {
                 arrayList.add(scanner.nextLine());
-                countOfWords = arrayList.get(i).split(" ").length;
+                countOfWords = arrayList.get(i).split("\\s+").length;
                 //System.out.print(arrayList.get(i)+"\t\t");
                 if (i==0)
                     System.out.println(countOfWords + " words");
