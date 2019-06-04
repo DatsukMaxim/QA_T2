@@ -16,7 +16,7 @@ public class Counter {
                 countOfWords = arrayList.get(i).split("\\s+").length;
                 //System.out.print(arrayList.get(i)+"\t\t");
                 if (i==0)
-                    System.out.println(countOfWords + " words");
+                    System.out.println(countOfWords);
                 else System.out.println();
                 i++;
             }
